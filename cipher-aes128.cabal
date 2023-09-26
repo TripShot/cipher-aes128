@@ -29,7 +29,7 @@ flag test
   default: False
 
 custom-setup
-  setup-depends: base >= 4.2 && <5, Cabal >= 1.10 && < 3.7, process >=1.0
+  setup-depends: base >= 4.2 && <5, Cabal >= 1.10, process >=1.0
 
 library
   default-language:    Haskell2010
